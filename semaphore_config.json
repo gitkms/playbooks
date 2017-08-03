@@ -1,0 +1,33 @@
+{
+ 	"mysql": {
+ 		"host": "localhost:3306",
+ 		"user": "root",
+ 		"pass": "Kms@admin123!",
+ 		"name": "semaphore"
+ 	},
+ 	"port": ":8010",
+ 	"tmp_path": "/usr/local/playbooks",
+ 	"cookie_hash": "nSkF8GCeiEoVQIb+SpMVtXgzQaVqtzv5TT4lGwXdwzw=",
+ 	"cookie_encryption": "cMoV7XJ53Whj2LHS8PkjRO7Js+e4E2BwfP23Wn7h2Ns=",
+ 	"email_alert": false,
+ 	"email_sender": "",
+ 	"email_host": "",
+ 	"email_port": "",
+ 	"web_host": "http://10.44.1.109:8010",
+ 	"ldap_enable": false,
+ 	"ldap_binddn": "",
+ 	"ldap_bindpassword": "",
+ 	"ldap_server": "",
+ 	"ldap_needtls": false,
+ 	"ldap_searchdn": "",
+ 	"ldap_searchfilter": "",
+ 	"ldap_mappings": {
+ 		"dn": "",
+ 		"mail": "",
+ 		"uid": "",
+ 		"cn": ""
+ 	},
+ 	"telegram_alert": false,
+ 	"telegram_chat": "",
+ 	"telegram_token": ""
+ }
