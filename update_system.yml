@@ -1,4 +1,4 @@
-- hosts: client116 
+- hosts: kms_servers 
   user: root
 
   tasks:
