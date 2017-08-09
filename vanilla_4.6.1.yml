@@ -5,11 +5,6 @@
       src: /ansible/4.6.1/jdk-7u80-linux-x64.rpm
       dest: /usr/local/
       mode: 0755
-  - name: get java
-    get_url:
-        url:  http://10.44.1.109/ansible/4.6.1/jdk-7u80-linux-x64.rpm
-        dest: /usr/local/
-        mode: 0755
   - name: install java 1.7
     yum:
       name: /usr/local/jdk-7u80-linux-x64.rpm
@@ -20,8 +15,8 @@
       state: latest
 - hosts: db_servers
   tasks:
-  - name: get installer
-    get_url:
-        url:  http://10.44.1.109/ansible/4.6.1/installer.jar
-        dest: /usr/install/installer.jar
-        mode: 0755
+  - name: copy java
+    copy:
+      src: /ansible/4.6.1/installer.jar
+      dest: /usr/local/
+      mode: 0755
