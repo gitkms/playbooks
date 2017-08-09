@@ -1,0 +1,22 @@
+- hosts: kms_servers
+  tasks:
+  - name: get java
+    get_url:
+        url:  10.44.1.109/ansible/4.6.1/jdk-7u80-linux-x64.rpm
+        dest: /usr/local/install
+        mode: 0755
+  - name: install java 1.7
+  yum:
+    name: /usr/local/install/jdk-7u80-linux-x64.rpm
+    state: latest
+  - name: install httpd
+  yum:
+    name: httpd
+    state: latest
+- hosts: db_servers
+  tasks:
+  - name: get installer
+    get_url:
+        url:  10.44.1.109/ansible/4.6.1/installer.jar
+        dest: /usr/local/install/installer.jar
+        mode: 0755
