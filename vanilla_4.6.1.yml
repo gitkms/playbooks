@@ -1,5 +1,10 @@
 - hosts: kms_servers
   tasks:
+  - name: copy java
+    copy:
+      src: /ansible/4.6.1/jdk-7u80-linux-x64.rpm
+      dest: /usr/local/
+      mode: 0755
   - name: get java
     get_url:
         url:  http://10.44.1.109/ansible/4.6.1/jdk-7u80-linux-x64.rpm
