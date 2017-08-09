@@ -24,6 +24,7 @@
     yum:
       name: /usr/local/install/jdk-7u80-linux-x64.rpm
       state: latest
+      ignore_errors: yes
   - name: install httpd
     yum:
       name: httpd
