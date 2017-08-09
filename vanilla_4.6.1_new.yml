@@ -1,17 +1,20 @@
 - hosts: kms_servers
   tasks:
   - name: create folder for installation files
-    file: path=/usr/local/install
-    state: directory
-    mode: 0755
+    file: 
+      path: /usr/local/install
+      state: directory
+      mode: 0755
   - name: create folder for tomcat kms
-    file: path=/usr/local/tomcat7-kms
-    state: directory
-    mode: 0755
+    file:
+      path: /usr/local/tomcat7-kms
+      state: directory
+      mode: 0755
   - name: create folder for tomcat solr
-    file: path=/usr/local/tomcat7-solr
-    state: directory
-    mode: 0755
+    file:
+      path: /usr/local/tomcat7-solr
+      state: directory
+      mode: 0755
   - name: copy java 1.7
     copy:
       src: /ansible/4.6.1/jdk-7u80-linux-x64.rpm
@@ -28,9 +31,10 @@
 - hosts: db_servers
   tasks:
   - name: create installation folder
-    file: path=/usr/local/install
-    state: directory
-    mode: 0755
+    file: 
+      path: /usr/local/install
+      state: directory
+      mode: 0755
   - name: copy installer 4.6.1
     copy:
       src: /ansible/4.6.1/installer.jar
