@@ -37,7 +37,7 @@
       mode: 0755
   - name: Install zabbix-agent
     yum:
-      name: /usr/local/zabbix-agent-3.0.10-1.el7.x86_64.rpm
+      name: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm
       state: latest
 - hosts: db_servers
   tasks:
