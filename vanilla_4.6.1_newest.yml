@@ -1,9 +1,5 @@
 - hosts: kms_servers
   tasks:
-  - name: Install epel repo
-    yum: 
-    name: epel-release
-    state: latest
   - name: Update system
     yum:
     name: "*"
