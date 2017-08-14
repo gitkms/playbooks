@@ -1,0 +1,59 @@
+- hosts: kms_servers
+  tasks:
+  - name: Install epel repo
+    yum: 
+    name: epel-release
+    state: latest
+  - name: Update system
+    yum:
+    name: "*"
+    state: latest
+  - name: Create folder for installation files
+    file: 
+      path: /usr/local/install
+      state: directory
+      mode: 0755
+  - name: Create folder for tomcat kms
+    file:
+      path: /usr/local/tomcat7-kms
+      state: directory
+      mode: 0755
+  - name: Create folder for tomcat solr
+    file:
+      path: /usr/local/tomcat7-solr
+      state: directory
+      mode: 0755
+  - name: Copy java 1.7
+    copy:
+      src: /ansible/4.6.1/jdk-7u80-linux-x64.rpm
+      dest: /usr/local/install
+      mode: 0755
+  - name: install java 1.7
+    yum:
+      name: /usr/local/install/jdk-7u80-linux-x64.rpm
+      state: latest
+  - name: Install httpd
+    yum:
+      name: httpd
+      state: latest
+  - name: Copy zabbix rpm (zabbix version 3.010)
+    get_url:
+      url: http://repo.zabbix.com/zabbix/3.0/rhel/7/x86_64/zabbix-agent-3.0.10-1.el7.x86_64.rpm 
+      dest: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm 
+      mode: 0755
+  - name: Install zabbix-agent
+    yum:
+      name: /usr/local/zabbix-agent-3.0.10-1.el7.x86_64.rpm
+      state: latest
+- hosts: db_servers
+  tasks:
+  - name: Create installation folder
+    file: 
+      path: /usr/local/install
+      state: directory
+      mode: 0755
+  - name: Copy installer 4.6.1
+    copy:
+      src: /ansible/4.6.1/installer.jar
+      dest: /usr/local/install
+      mode: 0755
