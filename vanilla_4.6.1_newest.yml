@@ -33,17 +33,33 @@
     yum:
       name: httpd
       state: latest
-  - name: Copy zabbix rpm (zabbix version 3.010)
+  - name: Download zabbix rpm (zabbix version 3.010)
     get_url:
       url: http://repo.zabbix.com/zabbix/3.0/rhel/7/x86_64/zabbix-agent-3.0.10-1.el7.x86_64.rpm 
       dest: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm 
       mode: 0755
+  - name: Create folder for zabbix
+    file: 
+      path: /opt/zabbix
+      state: directory
+      mode: 0755
+  - name: Copy zabbix config 1
+    copy:
+      src: /usr/local/install/zabbix/zabbix_agent_app/zabbix
+      dest: /etc/zabbix/
+  - name: Copy zabbix config 2
+    copy:
+      src: /usr/local/install/zabbix/zabbix_agent_app/opt/zabbix/
+      dest: /opt/zabbix/
   - name: Install zabbix-agent
     yum:
       name: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm
       state: latest
 - hosts: db_servers
   tasks:
+  - name: Task info
+    debug:
+      msg: "Vanilla DB installation KMS 4.6.1 on {{hostname}}, IP {{ ansible_ssh_host }}"
   - name: Create installation folder
     file: 
       path: /usr/local/install
@@ -53,4 +69,27 @@
     copy:
       src: /ansible/4.6.1/installer.jar
       dest: /usr/local/install
-      mode: 0755	  
+      mode: 0755
+  - name: Download zabbix rpm (zabbix version 3.010)
+    get_url:
+      url: http://repo.zabbix.com/zabbix/3.0/rhel/7/x86_64/zabbix-agent-3.0.10-1.el7.x86_64.rpm 
+      dest: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm 
+      mode: 0755
+  - name: Create folder for zabbix
+    file: 
+      path: /opt/zabbix
+      state: directory
+      mode: 0755
+  - name: Create folder for zabbix
+    file: 
+      path: /opt/zabbix
+      state: directory
+      mode: 0755
+  - name: Copy zabbix config 1
+    copy:
+      src: /usr/local/install/zabbix/zabbix_agent_db/zabbix
+      dest: /etc/zabbix/
+  - name: Copy zabbix config 2
+    copy:
+      src: /usr/local/install/zabbix/zabbix_agent_db/opt/zabbix/
+      dest: /opt/zabbix/
