@@ -45,7 +45,7 @@
       mode: 0755
   - name: Copy zabbix config 1
     copy:
-      src: /usr/local/install/zabbix/zabbix_agent_app/zabbix
+      src: /usr/local/install/zabbix/zabbix_agent_app/zabbix/
       dest: /etc/zabbix/
   - name: Copy zabbix config 2
     copy:
@@ -55,6 +55,11 @@
     yum:
       name: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm
       state: latest
+  - name: Setup zabbix (zabbix_agentd.conf)
+    replace:
+      dest: /etc/zabbix/zabbix_agentd.conf
+      regexp: '\b(bcbsmapp 165.227.2.158)(\d*)\b'
+      replace: '\1\2.{{ hostname }} {{ ansible_ssh_host }} \2 \1\2'
 - hosts: db_servers
   tasks:
   - name: Task info
@@ -87,7 +92,7 @@
       mode: 0755
   - name: Copy zabbix config 1
     copy:
-      src: /usr/local/install/zabbix/zabbix_agent_db/zabbix
+      src: /usr/local/install/zabbix/zabbix_agent_db/zabbix/
       dest: /etc/zabbix/
   - name: Copy zabbix config 2
     copy:
