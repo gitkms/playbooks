@@ -38,6 +38,10 @@
       url: http://repo.zabbix.com/zabbix/3.0/rhel/7/x86_64/zabbix-agent-3.0.10-1.el7.x86_64.rpm 
       dest: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm 
       mode: 0755
+  - name: Install zabbix-agent
+    yum:
+      name: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm
+      state: latest
   - name: Create folder for zabbix
     file: 
       path: /opt/zabbix
@@ -51,10 +55,6 @@
     copy:
       src: /usr/local/install/zabbix/zabbix_agent_app/opt/zabbix/
       dest: /opt/zabbix/
-  - name: Install zabbix-agent
-    yum:
-      name: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm
-      state: latest
   - name: Wait for zabbix config file to show up
     wait_for:
       path: /etc/zabbix/zabbix_agentd.conf
@@ -83,6 +83,10 @@
       url: http://repo.zabbix.com/zabbix/3.0/rhel/7/x86_64/zabbix-agent-3.0.10-1.el7.x86_64.rpm 
       dest: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm 
       mode: 0755
+  - name: Install zabbix-agent
+    yum:
+      name: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm
+      state: latest
   - name: Create folder for zabbix
     file: 
       path: /opt/zabbix
@@ -109,7 +113,3 @@
       dest: /etc/zabbix/zabbix_agentd.conf
       regexp: 'bcbsmapp 165.227.2.158'
       replace: '{{ hostname }} {{ ansible_ssh_host }}'
-  - name: Install zabbix-agent
-    yum:
-      name: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm
-      state: latest
