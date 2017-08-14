@@ -2,7 +2,7 @@
   tasks:
   - name: Task info
     debug:
-    msg: "Vanilla install 4.6.1 on {{ hostname }}"
+    msg: "Vanilla install 4.6.1"
   - name: Update system
     yum: name='*' state=latest
   - name: Create folder for installation files
