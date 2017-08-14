@@ -101,8 +101,15 @@
     copy:
       src: /usr/local/install/zabbix/zabbix_agent_db/opt/zabbix/
       dest: /opt/zabbix/
+  - name: Wait for zabbix config file to show up
+    wait_for:
+      path: /etc/zabbix/zabbix_agentd.conf
+  - name: Setup zabbix (zabbix_agentd.conf)
+    replace:
+      dest: /etc/zabbix/zabbix_agentd.conf
+      regexp: 'bcbsmapp 165.227.2.158'
+      replace: '{{ hostname }} {{ ansible_ssh_host }}'
   - name: Install zabbix-agent
     yum:
       name: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm
       state: latest
-
