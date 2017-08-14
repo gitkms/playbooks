@@ -61,7 +61,7 @@
   - name: Setup zabbix (zabbix_agentd.conf)
     replace:
       dest: /etc/zabbix/zabbix_agentd.conf
-      regexp: 'bcbsmapp 165.227.2.158'
+      regexp: 'ansible_app 127.0.0.1'
       replace: '{{ hostname }} {{ ansible_ssh_host }}'
 - hosts: db_servers
   tasks:
@@ -92,11 +92,6 @@
       path: /opt/zabbix
       state: directory
       mode: 0755
-  - name: Create folder for zabbix
-    file: 
-      path: /opt/zabbix
-      state: directory
-      mode: 0755
   - name: Copy zabbix config 1
     copy:
       src: /usr/local/install/zabbix/zabbix_agent_db/zabbix/
@@ -111,5 +106,5 @@
   - name: Setup zabbix (zabbix_agentd.conf)
     replace:
       dest: /etc/zabbix/zabbix_agentd.conf
-      regexp: 'bcbsmapp 165.227.2.158'
+      regexp: 'ansible_db 127.0.0.1'
       replace: '{{ hostname }} {{ ansible_ssh_host }}'
