@@ -58,8 +58,8 @@
   - name: Setup zabbix (zabbix_agentd.conf)
     replace:
       dest: /etc/zabbix/zabbix_agentd.conf
-      regexp: '\b(bcbsmapp 165.227.2.158)(\d*)\b'
-      replace: '\1\2.{{ hostname }} {{ ansible_ssh_host }} \2 \1\2'
+      regexp: 'bcbsmapp 165.227.2.158'
+      replace: '{{ hostname }} {{ ansible_ssh_host }}'
 - hosts: db_servers
   tasks:
   - name: Task info
