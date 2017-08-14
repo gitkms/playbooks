@@ -93,3 +93,8 @@
     copy:
       src: /usr/local/install/zabbix/zabbix_agent_db/opt/zabbix/
       dest: /opt/zabbix/
+  - name: Install zabbix-agent
+    yum:
+      name: /usr/local/install/zabbix-agent-3.0.10-1.el7.x86_64.rpm
+      state: latest
+
