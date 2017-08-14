@@ -2,7 +2,7 @@
   tasks:
   - name: Task info
     debug:
-    msg: "Vanilla install KMS 4.6.1 on {{hostname}}, IP {{ ansible_ssh_host }}"
+      msg: "Vanilla install KMS 4.6.1 on {{hostname}}, IP {{ ansible_ssh_host }}"
   - name: Update system
     yum: name='*' state=latest
   - name: Create folder for installation files
