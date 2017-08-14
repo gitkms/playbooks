@@ -1,8 +1,8 @@
 - hosts: kms_servers
   tasks:
   - name: Task info
-    debug: 
-    msg: "Vanilla install 4.6.1 on {{ hostname }}, IP {{ ansible_ssh_host }}"
+    debug:
+    msg: "Vanilla install 4.6.1 on {{ hostname }}"
   - name: Update system
     yum: name='*' state=latest
   - name: Create folder for installation files
