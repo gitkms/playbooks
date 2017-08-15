@@ -3,19 +3,19 @@
   - name: Task info
     debug:
       msg: "Delete all on {{hostname}}, IP {{ ansible_ssh_host }}"
-  - name: Create folder for installation files
+  - name: delete folder for installation files
     file: 
       path: /usr/local/install
       state: absent
-  - name: Create folder for tomcat kms
+  - name: delete folder for tomcat kms
     file:
       path: /usr/local/tomcat7-kms
       state: absent
-  - name: Create folder for tomcat solr
+  - name: delete folder for tomcat solr
     file:
       path: /usr/local/tomcat7-solr
       state: absent
-  - name: Copy java 1.7
+  - name: delete java 1.7
     file:
       path: /usr/local/install/4.6.1/jdk-7u80-linux-x64.rpm
       state: absent
