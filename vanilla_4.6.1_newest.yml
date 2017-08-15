@@ -56,9 +56,7 @@
       src: /usr/local/install/zabbix/zabbix_agent_app/opt/zabbix/
       dest: /opt/zabbix/
   - name: Wait for zabbix config file to show up
-    wait_for:
-      path: /etc/zabbix
-      state: present
+    pause: seconds=45
   - name: Setup zabbix (zabbix_agentd.conf)
     replace:
       dest: /etc/zabbix/zabbix_agentd.conf
