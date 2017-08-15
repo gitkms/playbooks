@@ -61,6 +61,6 @@
       path: /opt/zabbix
       state: absent
   - name: delete zabbix folder 2
-    copy:
+    file:
       path: /etc/zabbix/
       state: absent 
