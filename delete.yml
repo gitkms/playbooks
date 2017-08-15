@@ -30,6 +30,10 @@
   - name: remove mod_jk module for httpd
     file:
       path: /usr/lib64/httpd/modules/mod_jk.so
+      state: absent
+  - name: remove mod_ssl module for httpd
+    file:
+      path: /usr/lib64/httpd/modules/mod_ssl.so
       state: absent 
   - name: remove zabbix-agent
     yum:
