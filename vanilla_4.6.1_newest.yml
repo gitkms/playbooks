@@ -55,11 +55,13 @@
     copy:
       src: /usr/local/install/zabbix/zabbix_agent_app/opt/zabbix/
       dest: /opt/zabbix/
-  - name: Setup zabbix (zabbix_agentd.conf)
-    debug:
-      msg: "Wait for zabbix_agentd.conf to show up"
+  - name: Wait for zabbix config file to show up
     wait_for:
       path: /etc/zabbix/zabbix_agentd.conf
+      delay: 60
+      sleep: 5
+      timeout: 600
+  - name: Setup zabbix (zabbix_agentd.conf)
     replace:
       dest: /etc/zabbix/zabbix_agentd.conf
       regexp: 'ansible_app 127.0.0.1'
@@ -101,11 +103,10 @@
     copy:
       src: /usr/local/install/zabbix/zabbix_agent_db/opt/zabbix/
       dest: /opt/zabbix/
-  - name: Setup zabbix (zabbix_agentd.conf)
-    debug:
-      msg: "Wait for zabbix_agentd.conf to show up"
+  - name: Wait for zabbix config file to show up
     wait_for:
       path: /etc/zabbix/zabbix_agentd.conf
+  - name: Setup zabbix (zabbix_agentd.conf)
     replace:
       dest: /etc/zabbix/zabbix_agentd.conf
       regexp: 'ansible_db 127.0.0.1'
