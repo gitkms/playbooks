@@ -33,6 +33,18 @@
     yum:
       name: httpd
       state: latest
+  - name: Copy mod_jk module for httpd
+    copy:
+      src: /usr/local/install/modules/mod_jk.so
+      dest: /usr/lib64/httpd/modules/mod_jk.so
+  - name: Copy mod_jk module for httpd
+    copy:
+      src: /usr/local/install/httpd/mod_jk.so
+      dest: /usr/lib64/httpd/modules/mod_jk.so
+  - name: Copy configs for httpd
+    copy:
+      src: /usr/local/install/httpd/
+      dest: /etc/httpd
   - name: Download zabbix rpm (zabbix version 3.010)
     get_url:
       url: http://repo.zabbix.com/zabbix/3.0/rhel/7/x86_64/zabbix-agent-3.0.10-1.el7.x86_64.rpm 
@@ -55,8 +67,6 @@
     copy:
       src: /usr/local/install/zabbix/zabbix_agent_app/opt/zabbix/
       dest: /opt/zabbix/
-  - name: Wait for zabbix config file to show up
-    pause: seconds=45
   - name: Setup zabbix (zabbix_agentd.conf)
     replace:
       dest: /etc/zabbix/zabbix_agentd.conf
@@ -99,9 +109,6 @@
     copy:
       src: /usr/local/install/zabbix/zabbix_agent_db/opt/zabbix/
       dest: /opt/zabbix/
-  - name: Wait for zabbix config file to show up
-    wait_for:
-      path: /etc/zabbix/zabbix_agentd.conf
   - name: Setup zabbix (zabbix_agentd.conf)
     replace:
       dest: /etc/zabbix/zabbix_agentd.conf
