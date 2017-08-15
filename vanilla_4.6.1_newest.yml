@@ -59,7 +59,6 @@
     wait_for:
       path: /etc/zabbix/zabbix_agentd.conf
       state: present
-      msg: Timeout
   - name: Setup zabbix (zabbix_agentd.conf)
     replace:
       dest: /etc/zabbix/zabbix_agentd.conf
