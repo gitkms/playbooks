@@ -57,7 +57,7 @@
       dest: /opt/zabbix/
   - name: Wait for zabbix config file to show up
     wait_for:
-      path: /etc/zabbix/zabbix_agentd.conf
+      path: /etc/zabbix!!!/zabbix_agentd.conf
       state: present
   - name: Setup zabbix (zabbix_agentd.conf)
     replace:
