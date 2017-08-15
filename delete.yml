@@ -55,7 +55,7 @@
   - name: remove zabbix-agent
     yum:
       name: zabbix-agent.x86_64
-      state: latest
+      state: absent
   - name: delete folder for zabbix 1
     file: 
       path: /opt/zabbix
