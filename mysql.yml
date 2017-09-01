@@ -1,9 +1,9 @@
 - hosts: db_servers
   tasks:
   - name: Add MySQL repo
-  yum: name=http://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm state=present
+    yum: name=http://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm state=present
   - name: Install MySQL
-  yum: name={{ item }} update_cache={{ update_yum_cache }} state=installed
-  with_items:
+    yum: name={{ item }} update_cache={{ update_yum_cache }} state=installed
+    with_items:
   - mysql
   - mysql-server
