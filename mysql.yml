@@ -7,3 +7,5 @@
     with_items:
       - mysql
       - mysql-server
+  - name: Update mysql root password for all root accounts "{{ dbpass }}"
+    mysql_user: name=root password="{{ dbpass }}" priv="*.*:ALL,GRANT"
