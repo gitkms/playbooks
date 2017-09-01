@@ -7,6 +7,14 @@
     with_items:
       - mysql
       - mysql-server
+  - name: Enable Epel
+    yum:
+      name: epel-release
+      state: latest
+  - name: Install pip
+    yum:
+      name: python-pip
+      state: latest
   - name: Install the Python MySQLB module
     pip: name=MySQL-python
   - name: Update mysql root password for all root accounts "{{ dbpass }}"
