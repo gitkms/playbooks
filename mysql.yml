@@ -11,6 +11,18 @@
     yum:
       name: epel-release
       state: latest
+  - name: Install Python-devel
+    yum:
+      name: python-devel
+      state: latest
+  - name: Install Mysql-devel
+    yum:
+      name: mysql-devel
+      state: latest
+  - name: Install gcc
+    yum:
+      name: gcc
+      state: latest
   - name: Install pip
     yum:
       name: python-pip
