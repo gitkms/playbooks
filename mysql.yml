@@ -27,6 +27,11 @@
     yum:
       name: python-pip
       state: latest
+  - name: MySQL service: ensure mysql started
+    service:
+      name: mysqld
+      state: started
+      enabled: yes
   - name: Install the Python MySQLB module
     pip: name=MySQL-python
   - name: Update mysql root password for all root accounts "{{ dbpass }}"
