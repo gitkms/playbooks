@@ -5,5 +5,5 @@
   - name: Install MySQL
     yum: name={{ item }} update_cache={{ update_yum_cache }} state=installed
     with_items:
-  - mysql
-  - mysql-server
+      - mysql
+      - mysql-server
