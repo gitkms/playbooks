@@ -27,7 +27,7 @@
     yum:
       name: python-pip
       state: latest
-  - name: MySQL service: ensure mysql started
+  - name: Ensure mysql started
     service:
       name: mysqld
       state: started
