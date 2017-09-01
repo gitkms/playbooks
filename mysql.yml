@@ -7,5 +7,7 @@
     with_items:
       - mysql
       - mysql-server
+  - name: Install the Python MySQLB module
+    pip: name=MySQL-python
   - name: Update mysql root password for all root accounts "{{ dbpass }}"
     mysql_user: name=root password="{{ dbpass }}" priv="*.*:ALL,GRANT"
