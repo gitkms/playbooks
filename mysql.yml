@@ -4,6 +4,6 @@
     yum: name=http://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm state=present
   - name: Install MySQL
     yum: name={{ item }} update_cache={{ yes }} state=installed
-      with_items:
+    with_items:
       - mysql
       - mysql-server
