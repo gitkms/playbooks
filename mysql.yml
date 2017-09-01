@@ -44,8 +44,8 @@
       login_password: "kmspass123!!!"
       state: present
       with_items:
-      - "{{default_fqdn}}"
-      - 127.0.0.1
-      - ::1
-      - localhost
+        - "{{default_fqdn}}"
+        - 127.0.0.1
+        - ::1
+        - localhost
 ignore_errors: true
