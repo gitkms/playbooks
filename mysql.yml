@@ -34,5 +34,18 @@
       enabled: yes
   - name: Install the Python MySQLB module
     pip: name=MySQL-python
-  - name: Securing root account
-    mysql_user: name=root password={{ dbpass }} state=present host=localhost
+  - name: update mysql root password for all root accounts
+    sudo: yes
+    mysql_user: 
+      name: root 
+      host: "{{ item }}" 
+      password: "{{ mysql_root_password }}"
+      login_user: root
+      login_password: "{{ mysql_root_password }}"
+      check_implicit_admin: yes
+      priv: "*.*:ALL,GRANT"
+    with_items:
+      - "{{ ansible_hostname }}"
+      - 127.0.0.1
+      - ::1
+      - localhost 
