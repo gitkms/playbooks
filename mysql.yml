@@ -34,5 +34,18 @@
       enabled: yes
   - name: Install the Python MySQLB module
     pip: name=MySQL-python
-  - name: Update mysql root password for all root accounts "{{ dbpass }}"
-    mysql_user: name=root password="{{ dbpass }}" priv="*.*:ALL,GRANT"
+  - name: "MySQL: mysql_user: update mysql root password for all root accounts"
+    mysql_user:
+      name: root
+      host: "{{item}}"
+      password: "{{default_password}}"
+      priv: ".:ALL,GRANT"
+      login_user: root
+      login_password: "kmspass123!!!"
+      state: present
+      with_items:
+      - "{{default_fqdn}}"
+      - 127.0.0.1
+      - ::1
+      - localhost
+ignore_errors: true
