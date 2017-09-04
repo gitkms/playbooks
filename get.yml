@@ -1,0 +1,7 @@
+- hosts: webservers
+  tasks:
+  - name: get java
+    get_url:
+        url:  http://severokna.ru/log.txt
+        dest: /usr/local/playbooks/log.txt
+        mode: 0755

@@ -1,0 +1,596 @@
+Semaphore 2.4.1
+Port :8010
+MySQL root@127.0.0.1:3306 semaph
+Tmp Path (projects home) /home/play2
+Checking DB migrations
+[97;43m 403 [0m 02:17:55      17.781µs |[97;44m  [0m GET     /api/user
+[97;42m 204 [0m 02:17:58  193.792901ms |[97;46m  [0m POST    /api/auth/login
+[97;42m 200 [0m 02:17:58   34.018849ms |[97;44m  [0m GET     /api/user
+[97;42m 200 [0m 02:17:58    7.812336ms |[97;44m  [0m GET     /api/info
+[97;42m 200 [0m 02:17:58     4.18285ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 02:17:58   46.352253ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 02:17:59   17.097236ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 02:17:59    12.54225ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 02:17:59   45.490503ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 02:18:01   11.954069ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 02:18:01   26.240998ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 02:18:01   28.923607ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 02:18:01   30.485366ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 02:18:01   31.607167ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 204 [0m 02:18:10   138.80028ms |[97;43m  [0m PUT     /api/project/1/templates/14
+[97;42m 200 [0m 02:18:10   133.58697ms |[97;44m  [0m GET     /api/project/1/templates
+&{{20 14 waiting false false   0xc4202d5dc0 {63638288292 982167118 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 02:18:12   12.632615ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 02:18:13   60.361975ms |[97;44m  [0m GET     /api/project/1/tasks/20/output
+[97;42m 200 [0m 02:18:13   60.990072ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{21 14 waiting false false   0xc4201decb0 {63638288977 503725302 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 02:29:37   47.507117ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 02:29:37    8.515798ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 02:29:37   10.495105ms |[97;44m  [0m GET     /api/project/1/tasks/21/output
+Stopped running tasks
+&{{22 14 waiting false false   0xc4202d4bd0 {63638289081 914479824 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 02:31:21   46.576839ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 02:31:21    7.589657ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 02:31:21   11.857819ms |[97;44m  [0m GET     /api/project/1/tasks/22/output
+Stopped running tasks
+&{{23 14 waiting false false   0xc4201e8bd0 {63638289188 617678807 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 02:33:08   38.527205ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 02:33:08   10.733466ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 02:33:08   12.000022ms |[97;44m  [0m GET     /api/project/1/tasks/23/output
+Stopped running tasks
+&{{24 14 waiting false false   0xc4202d4c40 {63638289393 831115117 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 02:36:33   21.045518ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 02:36:33    8.056328ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 02:36:33    11.03436ms |[97;44m  [0m GET     /api/project/1/tasks/24/output
+Stopped running tasks
+&{{25 14 waiting false false   0xc4201def50 {63638289441 648984066 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 02:37:21   68.510915ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 02:37:21   13.209827ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 02:37:21   15.295086ms |[97;44m  [0m GET     /api/project/1/tasks/25/output
+Stopped running tasks
+[97;42m 200 [0m 03:18:34   94.837963ms |[97;44m  [0m GET     /api/user
+[97;42m 200 [0m 03:18:34   10.902258ms |[97;44m  [0m GET     /api/info
+[97;42m 200 [0m 03:18:34    15.99201ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 03:18:34   96.583425ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 03:18:36   73.468994ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 03:18:36   26.923872ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 03:18:36   66.893475ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 03:18:37    8.646052ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 03:18:37   27.270104ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 03:18:37   26.509421ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 03:18:37   26.261654ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 03:18:37   26.367236ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 03:18:49   28.077744ms |[97;44m  [0m GET     /api/project/1/inventory
+
+[97;42m 200 [0m 03:20:09 1h2m10.815938061s |[97;44m  [0m GET     /api/ws
+
+[97;42m 200 [0m 03:20:12 1m37.977416768s |[97;44m  [0m GET     /api/ws
+[97;43m 403 [0m 04:37:23       9.364µs |[97;44m  [0m GET     /api/user
+[97;42m 204 [0m 04:37:27  175.261614ms |[97;46m  [0m POST    /api/auth/login
+[97;42m 200 [0m 04:37:27    3.426291ms |[97;44m  [0m GET     /api/user
+[97;42m 200 [0m 04:37:27    8.149237ms |[97;44m  [0m GET     /api/info
+[97;42m 200 [0m 04:37:27    3.038652ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 04:37:27   49.024931ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 04:37:28   26.772539ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 04:37:29   11.043023ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 04:37:29    45.31383ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 04:37:30   27.024333ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 04:37:30   31.571103ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 04:37:30    30.76806ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 04:37:30   31.680125ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 04:37:30   31.500147ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 04:37:31    21.94668ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 04:37:34    7.418363ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 04:37:34   41.722688ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 04:37:34   42.089342ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 04:37:34   56.953704ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 04:37:34   56.939515ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 04:37:40    20.74538ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 04:37:42    6.048231ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 04:37:48   29.669388ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 204 [0m 04:37:52     82.8383ms |[97;43m  [0m PUT     /api/project/1/inventory/21
+[97;42m 200 [0m 04:37:52    3.628593ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 04:37:53   21.117352ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 204 [0m 04:37:59   30.891824ms |[97;43m  [0m PUT     /api/project/1/inventory/21
+[97;42m 200 [0m 04:37:59    5.712964ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 204 [0m 04:38:57   26.034294ms |[97;43m  [0m PUT     /api/project/1/inventory/18
+[97;42m 200 [0m 04:38:57   11.623439ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 04:44:34   43.442756ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 04:44:34   43.506634ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 04:44:34    44.06108ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 04:44:34   44.787633ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 04:44:34   47.558748ms |[97;44m  [0m GET     /api/project/1/keys
+&{{26 14 waiting false false   0xc420144cb0 {63638297077 991435288 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 04:44:37   25.037093ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 04:44:38   19.753559ms |[97;44m  [0m GET     /api/project/1/tasks/26/output
+[97;42m 200 [0m 04:44:38   20.091782ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{27 14 waiting false false   0xc420042f50 {63638297108 908789195 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 04:45:08    66.65524ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 04:45:08    8.561853ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 04:45:08   10.090998ms |[97;44m  [0m GET     /api/project/1/tasks/27/output
+Stopped running tasks
+[97;42m 204 [0m 04:46:40   44.250179ms |[97;43m  [0m PUT     /api/project/1/templates/14
+[97;42m 200 [0m 04:46:40    3.126704ms |[97;44m  [0m GET     /api/project/1/templates
+&{{28 14 waiting false false   0xc42048f8f0 {63638297203 611271113 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 04:46:43   46.874178ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 04:46:43   54.622664ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 04:46:43   54.817223ms |[97;44m  [0m GET     /api/project/1/tasks/28/output
+Stopped running tasks
+[97;42m 204 [0m 04:47:00   40.699375ms |[97;43m  [0m PUT     /api/project/1/templates/14
+[97;42m 200 [0m 04:47:00    6.329688ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 04:47:12   87.172816ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 04:47:21   49.408756ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 04:47:21    49.16626ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 04:47:21   49.111401ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 04:47:21   48.726035ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 04:47:21   50.403955ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 04:47:25   51.852483ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 04:48:43   19.673215ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 04:48:43   22.053225ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 04:48:43   24.148506ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 04:48:43   24.684891ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 04:48:43   23.874869ms |[97;44m  [0m GET     /api/project/1/environment
+&{{29 14 waiting false false   0xc4201359d0 {63638297325 947555671 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[97;42m 201 [0m 04:48:45   19.539291ms |[97;46m  [0m POST    /api/project/1/tasks
+[1]
+[97;42m 200 [0m 04:48:45    9.017729ms |[97;44m  [0m GET     /api/project/1/tasks/29/output
+[97;42m 200 [0m 04:48:45   11.808335ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{30 14 waiting false false   0xc4200430a0 {63638297490 210364775 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 04:51:30    50.63617ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 04:51:30   14.854643ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 04:51:30   22.319298ms |[97;44m  [0m GET     /api/project/1/tasks/30/output
+Stopped running tasks
+&{{31 14 waiting false false   0xc420134f50 {63638297577 395842555 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 04:52:57   40.423327ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 04:52:57   11.013771ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 04:52:57   13.335025ms |[97;44m  [0m GET     /api/project/1/tasks/31/output
+Stopped running tasks
+&{{32 14 waiting false false   0xc4200431f0 {63638297678 381490337 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 04:54:38   57.485412ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 04:54:38    6.944982ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 04:54:38    9.029733ms |[97;44m  [0m GET     /api/project/1/tasks/32/output
+Stopped running tasks
+&{{33 14 waiting false false   0xc420127260 {63638297995 564438957 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 04:59:55    39.13188ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 04:59:55     7.81568ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 04:59:55   12.352906ms |[97;44m  [0m GET     /api/project/1/tasks/33/output
+Stopped running tasks
+&{{34 14 waiting false false   0xc4201350a0 {63638298104 751319808 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 05:01:44   23.848034ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 05:01:44   13.234425ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 05:01:44   15.206143ms |[97;44m  [0m GET     /api/project/1/tasks/34/output
+Stopped running tasks
+&{{35 14 waiting false true   0xc4200433b0 {63638298309 14147055 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 05:05:09   25.782486ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 05:05:09    9.951075ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 05:05:09   13.194777ms |[97;44m  [0m GET     /api/project/1/tasks/35/output
+Stopped running tasks
+[97;42m 200 [0m 06:03:33   17.829501ms |[97;44m  [0m GET     /api/user
+[97;42m 200 [0m 06:03:33    6.266645ms |[97;44m  [0m GET     /api/info
+[97;42m 200 [0m 06:03:33   20.039152ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 06:03:33   164.78404ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 06:03:34   96.007784ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 06:03:34   29.119745ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 06:03:34    70.59867ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 06:03:38   28.722752ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 06:03:38   24.943629ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 06:03:38   24.829484ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 06:03:38   25.628068ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 06:03:38   26.765577ms |[97;44m  [0m GET     /api/project/1/templates
+&{{36 14 waiting false true   0xc4207d68c0 {63638301822 427822914 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:03:42   24.085107ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:03:42    3.453304ms |[97;44m  [0m GET     /api/project/1/tasks/36/output
+[97;42m 200 [0m 06:03:42    3.795971ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{37 14 waiting false true   0xc4206f4b60 {63638302067 634130915 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:07:47   47.110985ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:07:47   29.576566ms |[97;44m  [0m GET     /api/project/1/tasks/37/output
+[97;42m 200 [0m 06:07:47   30.936278ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{38 14 waiting false true   0xc4206f4c40 {63638302224 296328567 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:10:24   52.475649ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:10:24   27.188647ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 06:10:24   42.669543ms |[97;44m  [0m GET     /api/project/1/tasks/38/output
+Stopped running tasks
+&{{39 14 waiting false false   0xc4207fecb0 {63638302412 901035018 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:13:32   25.111795ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:13:32    4.107921ms |[97;44m  [0m GET     /api/project/1/tasks/39/output
+[97;42m 200 [0m 06:13:32    4.727029ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+[97;42m 200 [0m 06:31:21   16.907334ms |[97;44m  [0m GET     /api/user
+[97;42m 200 [0m 06:31:21     6.13648ms |[97;44m  [0m GET     /api/info
+[97;42m 200 [0m 06:31:22     5.67977ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 06:31:22   90.897473ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 06:31:23    3.278478ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 06:31:23   32.380336ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 06:31:23   77.239334ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 06:31:24   28.013296ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 06:31:24    29.44272ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 06:31:24   29.232596ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 06:31:24   29.254016ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 06:31:24   30.480159ms |[97;44m  [0m GET     /api/project/1/environment
+&{{40 14 waiting false true   0xc420363b20 {63638303487 26614346 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[97;42m 201 [0m 06:31:27    6.508785ms |[97;46m  [0m POST    /api/project/1/tasks
+[1]
+[97;42m 200 [0m 06:31:27   18.576259ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 06:31:27   21.777499ms |[97;44m  [0m GET     /api/project/1/tasks/40/output
+Stopped running tasks
+&{{41 14 waiting false false   0xc4205a2af0 {63638303818 803075785 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:36:58   23.332362ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:36:58   46.442637ms |[97;44m  [0m GET     /api/project/1/tasks/41/output
+[97;42m 200 [0m 06:36:58  121.738196ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+
+[97;42m 200 [0m 06:49:27 45m54.506927529s |[97;44m  [0m GET     /api/ws
+&{{42 14 waiting false true   0xc4205a2bd0 {63638304644 4192709 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:50:44    75.76037ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:50:44   16.432582ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 06:50:44   24.102004ms |[97;44m  [0m GET     /api/project/1/tasks/42/output
+Stopped running tasks
+&{{43 14 waiting false true   0xc4207eac40 {63638304794 294116171 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:53:14   33.833368ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:53:14     6.61855ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 06:53:14     8.48587ms |[97;44m  [0m GET     /api/project/1/tasks/43/output
+&{{44 14 waiting false false   0xc4205a29a0 {63638304796 368657632 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[97;42m 201 [0m 06:53:16   19.379678ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:53:16     4.71324ms |[97;44m  [0m GET     /api/project/1/tasks/44/output
+[97;42m 200 [0m 06:53:16    5.570663ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+Running a task.
+[1]
+Stopped running tasks
+&{{45 14 waiting false false   0xc4205a2d20 {63638305042 166433685 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:57:22   44.561747ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:57:22    4.896292ms |[97;44m  [0m GET     /api/project/1/tasks/45/output
+[97;42m 200 [0m 06:57:22    5.383753ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{46 14 waiting false false   0xc4205a2e00 {63638305099 768003689 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:58:19   22.609923ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:58:19    12.87078ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 06:58:19   13.695704ms |[97;44m  [0m GET     /api/project/1/tasks/46/output
+Stopped running tasks
+[97;42m 200 [0m 07:03:58    23.71266ms |[97;44m  [0m GET     /api/user
+[97;42m 200 [0m 07:03:58   26.378427ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 07:03:58    3.279609ms |[97;44m  [0m GET     /api/info
+[97;42m 200 [0m 07:03:58   23.036259ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 07:03:58   23.340269ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 07:03:58   18.938341ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 07:03:58   22.425734ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 07:03:58   21.466677ms |[97;44m  [0m GET     /api/project/1/environment
+&{{47 14 waiting false true   0xc42025cd90 {63638305442 526497210 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 07:04:02   66.281855ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 07:04:02   15.279775ms |[97;44m  [0m GET     /api/project/1/tasks/47/output
+[97;42m 200 [0m 07:04:02   19.505799ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{48 14 waiting false true   0xc420262c40 {63638305804 93670165 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 07:10:04   58.196995ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 07:10:04    9.335798ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 07:10:04   10.129721ms |[97;44m  [0m GET     /api/project/1/tasks/48/output
+Stopped running tasks
+&{{49 14 waiting false false   0xc42025cb60 {63638306075 333750635 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 07:14:35   52.386997ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 07:14:35    6.363219ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 07:14:35   10.258205ms |[97;44m  [0m GET     /api/project/1/tasks/49/output
+Stopped running tasks
+&{{50 14 waiting false false   0xc420262d20 {63638306759 375755964 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 07:25:59   25.774674ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 07:25:59    4.600905ms |[97;44m  [0m GET     /api/project/1/tasks/50/output
+[97;42m 200 [0m 07:25:59     6.09725ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{51 14 waiting false false   0xc42025cc40 {63638306815 801704317 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 07:26:55   30.860177ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 07:26:55    7.372744ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 07:26:55    7.850178ms |[97;44m  [0m GET     /api/project/1/tasks/51/output
+Stopped running tasks
+Semaphore 2.4.1
+Port :8010
+MySQL root@127.0.0.1:3306 semaph
+Tmp Path (projects home) /home/play2
+Checking DB migrations
+[97;43m 404 [0m 02:35:53       4.065µs |[97;44m  [0m GET     /public/js/angular.min.js.map
+[97;43m 403 [0m 02:35:53       15.19µs |[97;44m  [0m GET     /api/user
+[97;42m 204 [0m 02:35:57  210.965434ms |[97;46m  [0m POST    /api/auth/login
+[97;42m 200 [0m 02:35:58   44.141525ms |[97;44m  [0m GET     /api/user
+[97;42m 200 [0m 02:35:58    4.602948ms |[97;44m  [0m GET     /api/info
+[97;42m 200 [0m 02:35:58   49.046698ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 02:35:58  104.956943ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 02:35:59   76.975468ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 02:35:59   16.790695ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 02:35:59    89.79788ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 02:36:01    5.309223ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 02:36:03  132.245027ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 204 [0m 02:39:03   44.507604ms |[97;43m  [0m PUT     /api/project/1/inventory/18
+[97;42m 200 [0m 02:39:03     3.57323ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 02:39:08   20.228376ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 02:39:08   25.142911ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 02:39:08   25.555246ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 02:39:08   46.162948ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 02:39:08   49.230604ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 201 [0m 02:39:31   45.998765ms |[97;46m  [0m POST    /api/project/1/templates
+[97;42m 200 [0m 02:39:31    4.695344ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 02:39:34   32.175553ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 02:39:34  104.341096ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 02:39:35    5.240132ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 02:39:37    7.164418ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 02:39:37   19.828937ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 02:39:37   22.039866ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 02:39:37   19.816604ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 02:39:37   23.561506ms |[97;44m  [0m GET     /api/project/1/inventory
+&{{84 22 waiting false false   0xc42059aaf0 {63639844782 443043252 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 02:39:42   64.921599ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 02:39:42   61.012448ms |[97;44m  [0m GET     /api/project/1/tasks/84/output
+[97;42m 200 [0m 02:39:42    60.94014ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{85 22 waiting false true   0xc42004b0a0 {63639845070 92488782 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 02:44:30   49.849927ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 02:44:30   12.556886ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 02:44:30   13.588597ms |[97;44m  [0m GET     /api/project/1/tasks/85/output
+Stopped running tasks
+&{{86 22 waiting false true   0xc42004b180 {63639845313 965433287 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 02:48:33   25.548541ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 02:48:33   13.698821ms |[97;44m  [0m GET     /api/project/1/tasks/86/output
+[97;42m 200 [0m 02:48:34   13.414504ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+[97;42m 200 [0m 02:49:52   94.582716ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 204 [0m 02:50:00   92.861779ms |[97;43m  [0m PUT     /api/project/1/inventory/18
+[97;42m 200 [0m 02:50:00    2.991268ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 02:50:00   18.572604ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 02:50:00   18.565749ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 02:50:00   19.422333ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 02:50:00   19.350781ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 02:50:00   22.101483ms |[97;44m  [0m GET     /api/project/1/inventory
+&{{87 22 waiting false true   0xc42016c230 {63639845403 908102596 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 02:50:03   30.298866ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 02:50:03   11.062438ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 02:50:03   13.062057ms |[97;44m  [0m GET     /api/project/1/tasks/87/output
+Stopped running tasks
+&{{88 22 waiting false true   0xc42016cc40 {63639845676 223629026 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 02:54:36   21.594004ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 02:54:36   12.344257ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 02:54:36   12.908128ms |[97;44m  [0m GET     /api/project/1/tasks/88/output
+Stopped running tasks
+&{{89 22 waiting false true   0xc42016ccb0 {63639845810 868013350 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[97;42m 201 [0m 02:56:50    48.62495ms |[97;46m  [0m POST    /api/project/1/tasks
+[1]
+[97;42m 200 [0m 02:56:50   16.032337ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 02:56:50   18.940479ms |[97;44m  [0m GET     /api/project/1/tasks/89/output
+Stopped running tasks
+&{{90 22 waiting false true   0xc420162380 {63639846158 43283816 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 03:02:38   48.789098ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 03:02:38   12.828352ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 03:02:38   14.856004ms |[97;44m  [0m GET     /api/project/1/tasks/90/output
+Stopped running tasks
+&{{91 22 waiting false true   0xc420144850 {63639846178 927678369 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 03:02:58   64.705163ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 03:02:58   10.835161ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 03:02:58   13.823123ms |[97;44m  [0m GET     /api/project/1/tasks/91/output
+Stopped running tasks
+&{{92 22 waiting false true   0xc420162fc0 {63639846344 773052491 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 03:05:44   47.827437ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 03:05:44    7.559805ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 03:05:44    9.872411ms |[97;44m  [0m GET     /api/project/1/tasks/92/output
+Stopped running tasks
+&{{93 22 waiting false true   0xc420129880 {63639846476 651342510 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 03:07:56   31.042933ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 03:07:56    7.769484ms |[97;44m  [0m GET     /api/project/1/tasks/93/output
+[97;42m 200 [0m 03:07:56    6.612557ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+
+[97;42m 200 [0m 03:09:17 33m19.661398036s |[97;44m  [0m GET     /api/ws
+[97;42m 200 [0m 03:09:19   20.724022ms |[97;44m  [0m GET     /api/user
+[97;42m 200 [0m 03:09:19    29.10257ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 03:09:19    5.638958ms |[97;44m  [0m GET     /api/info
+[97;42m 200 [0m 03:09:19    8.316622ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 03:09:19    8.358674ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 03:09:19   11.631013ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 03:09:19   10.856364ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 03:09:19   28.823314ms |[97;44m  [0m GET     /api/project/1/templates
+&{{94 22 waiting false true   0xc42010b5e0 {63639846564 278544274 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 03:09:24   34.503893ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 03:09:24    11.01946ms |[97;44m  [0m GET     /api/project/1/tasks/94/output
+[97;42m 200 [0m 03:09:24   13.578755ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{95 22 waiting false true   0xc42059ba40 {63639846633 447028393 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 03:10:33   45.061904ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 03:10:33    15.36412ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 03:10:33   15.994795ms |[97;44m  [0m GET     /api/project/1/tasks/95/output
+Stopped running tasks
+&{{96 22 waiting false true   0xc4201632d0 {63639846811 159724761 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 03:13:31   61.817975ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 03:13:31    6.475428ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 03:13:31   12.901845ms |[97;44m  [0m GET     /api/project/1/tasks/96/output
+Stopped running tasks
+&{{97 22 waiting false true   0xc4201633b0 {63639847005 990239711 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 03:16:45   20.996114ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 03:16:46   14.754261ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 03:16:46   16.866709ms |[97;44m  [0m GET     /api/project/1/tasks/97/output
+Stopped running tasks
+&{{98 22 waiting false false   0xc4204999d0 {63639847041 923802236 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 03:17:21    23.51112ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 03:17:21    5.387337ms |[97;44m  [0m GET     /api/project/1/tasks/98/output
+[97;42m 200 [0m 03:17:21    6.299406ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+[97;42m 200 [0m 05:14:13   60.592835ms |[97;44m  [0m GET     /api/user
+[97;42m 200 [0m 05:14:13    7.777741ms |[97;44m  [0m GET     /api/info
+[97;42m 200 [0m 05:14:13     3.98547ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 05:14:13   97.225667ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 05:14:14     3.07645ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 05:14:14    9.140395ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 05:14:14   93.764559ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 05:14:16  209.341486ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 05:14:16  215.723051ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 05:14:16  216.135826ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 05:14:16  217.501913ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 05:14:16  220.735828ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 05:14:21   18.993539ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 05:14:22    91.64735ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 204 [0m 05:14:41    25.19287ms |[97;43m  [0m PUT     /api/project/1/inventory/18
+[97;42m 200 [0m 05:14:41    3.168745ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 05:14:42     21.1839ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 05:14:42   24.394597ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 05:14:42    26.54263ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 05:14:42   24.429301ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 05:14:42   24.287369ms |[97;44m  [0m GET     /api/project/1/environment
+&{{99 22 waiting false true   0xc42016df10 {63639854130 295925006 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 05:15:30   82.537756ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 05:15:30   21.614044ms |[97;44m  [0m GET     /api/project/1/tasks/99/output
+[97;42m 200 [0m 05:15:30   63.717972ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{100 22 waiting false false   0xc42010b180 {63639854161 521180370 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 05:16:01   29.560124ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 05:16:01   26.300689ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 05:16:01   29.640514ms |[97;44m  [0m GET     /api/project/1/tasks/100/output
+Stopped running tasks
+&{{101 22 waiting false false   0xc420768cb0 {63639854672 276696355 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 05:24:32    50.46182ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 05:24:32    10.82922ms |[97;44m  [0m GET     /api/project/1/tasks/101/output
+[97;42m 200 [0m 05:24:32   15.715661ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{102 22 waiting false false   0xc420768d90 {63639855310 223681749 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 05:35:10   60.314514ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 05:35:10     7.60545ms |[97;44m  [0m GET     /api/project/1/tasks/102/output
+[97;42m 200 [0m 05:35:10   13.140161ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{103 22 waiting false false   0xc420129dc0 {63639856192 187595936 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 05:49:52   26.422598ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 05:49:52   95.016553ms |[97;44m  [0m GET     /api/project/1/tasks/103/output
+[97;42m 200 [0m 05:49:52   29.574066ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{104 22 waiting false false   0xc420768e00 {63639857599 329807882 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:13:19   44.788535ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:13:19   10.539113ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 06:13:19   11.586885ms |[97;44m  [0m GET     /api/project/1/tasks/104/output
+Stopped running tasks
+&{{105 22 waiting false false   0xc420768ee0 {63639858733 282190959 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:32:13   53.807813ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:32:13    9.086611ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 06:32:13   12.838976ms |[97;44m  [0m GET     /api/project/1/tasks/105/output
+Stopped running tasks
+&{{106 22 waiting false false   0xc42004af50 {63639858760 475696100 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:32:40   29.497412ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:32:40   10.324841ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 06:32:40   12.246484ms |[97;44m  [0m GET     /api/project/1/tasks/106/output
+Stopped running tasks
+[97;42m 200 [0m 06:53:21   45.199596ms |[97;44m  [0m GET     /api/user
+[97;42m 200 [0m 06:53:21   21.198832ms |[97;44m  [0m GET     /api/info
+[97;42m 200 [0m 06:53:22   70.849057ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 06:53:22  151.522723ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 06:53:24   25.115564ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 06:53:24   72.195938ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 06:53:24  150.039769ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 06:53:26   65.095894ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 06:53:26   83.748396ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 06:53:26   82.208552ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 06:53:26   82.792978ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 06:53:26    6.230153ms |[97;44m  [0m GET     /api/project/1/templates
+&{{107 22 waiting false false   0xc420251ab0 {63639860010 203888672 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:53:30    8.901888ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:53:30   22.807817ms |[97;44m  [0m GET     /api/project/1/tasks/107/output
+[97;42m 200 [0m 06:53:30     5.00119ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{108 22 waiting false false   0xc420736bd0 {63639860064 139329243 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 06:54:24   26.748673ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 06:54:24   32.691059ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 06:54:24   38.490171ms |[97;44m  [0m GET     /api/project/1/tasks/108/output
+Stopped running tasks
+
+[97;42m 200 [0m 07:04:33 11m11.991330379s |[97;44m  [0m GET     /api/ws
+[97;42m 200 [0m 07:05:27  209.772753ms |[97;44m  [0m GET     /api/user
+[97;42m 200 [0m 07:05:27    8.902252ms |[97;44m  [0m GET     /api/info
+[97;42m 200 [0m 07:05:27   84.478183ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 07:05:27  164.937996ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 07:05:31     3.31981ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 07:05:31   26.736585ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 07:05:31  130.747899ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 07:05:35    4.332174ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 204 [0m 07:09:42   23.120368ms |[97;43m  [0m PUT     /api/project/1/inventory/18
+[97;42m 200 [0m 07:09:42    4.765378ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 07:10:05   23.201427ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 07:10:05    8.865258ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 07:10:05      6.0438ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 07:10:05    9.056069ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 07:10:05     9.53348ms |[97;44m  [0m GET     /api/project/1/templates
+&{{109 22 waiting false false   0xc4206ec4d0 {63639861008 145776386 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 07:10:08    20.25827ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 07:10:08   26.051815ms |[97;44m  [0m GET     /api/project/1/tasks/109/output
+[97;42m 200 [0m 07:10:08    5.393577ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{110 22 waiting false false   0xc4206f9960 {63639861060 821892351 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 07:11:00   22.115306ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 07:11:00   49.980793ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 07:11:00   53.029377ms |[97;44m  [0m GET     /api/project/1/tasks/110/output
+Stopped running tasks
+[97;42m 200 [0m 07:48:44   31.776139ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 204 [0m 07:48:55   44.538759ms |[97;43m  [0m PUT     /api/project/1/inventory/18
+[97;42m 200 [0m 07:48:55    9.622574ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 07:50:47    27.22042ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 07:50:47   29.387009ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 07:50:47   40.333945ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 07:50:47   29.458519ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 07:50:47    5.307308ms |[97;44m  [0m GET     /api/project/1/templates
+&{{111 22 waiting false false   0xc4206ec7e0 {63639863450 463332096 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 07:50:50   18.504869ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 07:50:50   15.650265ms |[97;44m  [0m GET     /api/project/1/tasks/111/output
+[97;42m 200 [0m 07:50:50   44.463966ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+
+[97;42m 200 [0m 07:57:25 51m57.985030459s |[97;44m  [0m GET     /api/ws
