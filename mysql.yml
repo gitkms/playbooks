@@ -17,7 +17,7 @@
     yum:
       name: epel-release
       state: latest
-  - name: Install Python-devel
+  - name: Install Python-devel one
     yum:
       name: python-devel
       state: latest
